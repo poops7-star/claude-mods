@@ -1,0 +1,9 @@
+{
+  "name": "turn-done",
+  "version": "0.1.0",
+  "description": "A toast and a desktop notification when a long answer finishes",
+  "license": "MIT",
+  "author": {
+    "name": "poops7-star"
+  }
+}

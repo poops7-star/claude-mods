@@ -1,0 +1,9 @@
+{
+  "name": "bash-guard",
+  "version": "0.1.0",
+  "description": "Asks for explicit confirmation before destructive shell commands (rm -rf, force push, DROP TABLE, ...)",
+  "license": "MIT",
+  "author": {
+    "name": "poops7-star"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "chat-index",
+  "version": "0.1.0",
+  "description": "A CHAT-INDEX button above the prompt: drafts this chat's index row (title, date, one-line summary) for review, then has Claude append it to the user's chat index",
+  "license": "MIT",
+  "author": { "name": "poops7-star" },
+  "types": "./types/index.d.ts"
+}

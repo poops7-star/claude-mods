@@ -1,0 +1,8 @@
+{
+  "name": "lang-guard",
+  "version": "0.1.0",
+  "description": "Notices when Claude answered in another language than the prompt (Hebrew, Russian, English) and offers to re-answer",
+  "license": "MIT",
+  "author": { "name": "poops7-star" },
+  "types": "./types/index.d.ts"
+}

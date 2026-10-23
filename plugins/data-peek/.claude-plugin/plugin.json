@@ -1,0 +1,8 @@
+{
+  "name": "data-peek",
+  "version": "0.1.0",
+  "description": "A side pane profiling every CSV/TSV Claude reads or writes: columns, types, missing values, min/mean/max and a sparkline",
+  "license": "MIT",
+  "author": { "name": "poops7-star" },
+  "types": "./types/index.d.ts"
+}

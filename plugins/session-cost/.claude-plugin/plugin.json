@@ -1,0 +1,9 @@
+{
+  "name": "session-cost",
+  "version": "0.1.0",
+  "description": "The session's cost so far in the status line",
+  "license": "MIT",
+  "author": {
+    "name": "poops7-star"
+  }
+}
