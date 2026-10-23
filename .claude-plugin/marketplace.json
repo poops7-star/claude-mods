@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "poops7-star" },
+  "plugins": [
+    {
+      "name": "usage-bars",
+      "source": "./plugins/usage-bars",
+      "description": "5-hour and weekly usage bars above the prompt, reset time in Hebrew"
+    }
+  ]
+}

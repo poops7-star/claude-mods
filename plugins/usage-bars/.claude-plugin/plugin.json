@@ -1,0 +1,10 @@
+{
+  "name": "usage-bars",
+  "version": "0.1.0",
+  "description": "Two bars above the prompt: 5-hour and weekly usage with reset time in Hebrew",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "poops7-star"
+  }
+}
