@@ -1,0 +1,8 @@
+{
+  "name": "second-opinion",
+  "version": "0.1.0",
+  "description": "A 'second opinion' button above the prompt: another model critiques Claude's last answer in a pane, and one press sends the critique back to fix it",
+  "license": "MIT",
+  "author": { "name": "poops7-star" },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "context-bar",
+  "version": "0.1.0",
+  "description": "A bar above the prompt showing how full the context window is, with a nudge to compact past 85%",
+  "license": "MIT",
+  "author": { "name": "poops7-star" },
+  "types": "./types/index.d.ts"
+}

@@ -6,6 +6,16 @@
       "name": "usage-bars",
       "source": "./plugins/usage-bars",
       "description": "5-hour and weekly usage bars above the prompt, reset time in Hebrew"
+    },
+    {
+      "name": "context-bar",
+      "source": "./plugins/context-bar",
+      "description": "Context window fill bar above the prompt, with a nudge to compact past 85%"
+    },
+    {
+      "name": "second-opinion",
+      "source": "./plugins/second-opinion",
+      "description": "Another model critiques Claude's last answer in a pane; one press sends the critique back to fix it"
     }
   ]
 }

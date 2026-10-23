@@ -96,6 +96,7 @@ export const register: Register = on => {
   on('ui.render', { component: 'AbovePrompt' }, async ($, e, next) => {
     const list = await read($, limits)
     if (e.props.hasSurvey || list.length === 0) return next(e)
+    const below = await next(e)
 
     const { Box, Text } = $.ui.resolve(e)
     const now = await $.clock.now()
@@ -119,6 +120,7 @@ export const register: Register = on => {
             </Box>
           )
         })}
+        {below}
       </Box>
     )
   })

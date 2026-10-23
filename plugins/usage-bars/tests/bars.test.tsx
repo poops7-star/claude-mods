@@ -20,6 +20,10 @@ test('reset labels in Israel time', () => {
 test('two bars after a measurement', async ($, on) => {
   on('session.measure', (_, e) => ({ changed: e.changed }))
   on('clock.now', () => ({ value: Date.UTC(2029, 11, 31, 8, 0) }))
+  on('ui.render', ($, e) => {
+    const { Text } = $.ui.resolve(e)
+    return <Text>engine</Text>
+  })
   await $.session.measure({
     context: {} as never,
     rateLimits: [
@@ -31,5 +35,7 @@ test('two bars after a measurement', async ($, on) => {
   const ui = await $.ui.mount({ ...BAND, surface: 'terminal' } as never)
   expect((await ui.find({ type: 'Text', text: /42%/ }))?.text).toBe('  42%  ')
   expect(await ui.find({ type: 'Text', text: /92%/ })).toBeTruthy()
+  // another mod's band, drawn beneath ours, still shows
+  expect(await ui.find({ type: 'Text', text: 'engine' })).toBeTruthy()
   await ui.unmount()
 })
